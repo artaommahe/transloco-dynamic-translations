@@ -11,11 +11,6 @@ import { CounterComponent } from './component/counter/counter';
       counterTranslations,
     ]),
   ],
-  providers: [
-    /* registerTranslations([
-      counterTranslations,
-    ]), */
-  ],
   declarations: [CounterComponent],
   exports: [CounterComponent],
 })
