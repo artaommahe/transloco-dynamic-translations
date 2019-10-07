@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { TranslocoModule } from '@ngneat/transloco';
-import { TranslateModule } from 'libs/translate';
+import { TranslateModule } from '../../translate';
 import { counterTranslations } from './component/counter/translation';
 import { CounterComponent } from './component/counter/counter';
 

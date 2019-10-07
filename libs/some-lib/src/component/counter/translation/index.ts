@@ -1,4 +1,4 @@
-import { ITranslationLoader } from 'libs/translate';
+import { ITranslationLoader } from '../../../../../translate';
 
 export function en() { return import('./en.json'); }
 export function ru() { return import('./ru.json'); }

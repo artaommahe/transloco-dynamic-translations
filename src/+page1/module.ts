@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslocoModule } from '@ngneat/transloco';
 import { Page1Component } from './component/page1/page1';
-import { TranslateModule } from 'libs/translate';
+import { TranslateModule } from '../../libs/translate';
 import { page1Translations } from './component/page1/translation';
-import { SomeLibModule } from 'libs/some-lib';
+import { SomeLibModule } from '../../libs/some-lib';
 
 @NgModule({
   imports: [
