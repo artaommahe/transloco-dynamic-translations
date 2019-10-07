@@ -1,0 +1,12 @@
+set lang:
+<a href="#" (click)="$event.preventDefault(); setLang('en')">en</a>,
+<a href="#" (click)="$event.preventDefault(); setLang('ru')">ru</a>
+<br>
+<static-component></static-component>
+<br>
+<a [routerLink]="['/']">root</a> |
+<a [routerLink]="['/page1']">page1</a> |
+<a [routerLink]="['/page2']">page2</a>
+<br>
+<br>
+<router-outlet></router-outlet>
