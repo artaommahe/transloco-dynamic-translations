@@ -1,4 +1,5 @@
-export interface ITranslationLoader {
-  scope: string;
-  translations: Record<string, () => Promise<object & { default?: object }>>;
+export type TComponentTranslationLoader = () => Promise<Object>;
+
+export interface IComponentTranslations {
+  [lang: string]: TComponentTranslationLoader;
 }

@@ -1,2 +1,1 @@
-export { ITranslationLoader } from './src/interface';
-export { TranslateModule } from './src/module';
+export { provideTranslation } from './src/helpers';

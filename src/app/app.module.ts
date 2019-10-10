@@ -4,8 +4,6 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { TranslocoModule, TRANSLOCO_CONFIG } from '@ngneat/transloco';
 import { StaticComponent } from './component/static/static';
-import { TranslateModule } from '../../libs/translate';
-import { staticTranslations } from './component/static/translation';
 
 @NgModule({
   imports: [
@@ -15,9 +13,6 @@ import { staticTranslations } from './component/static/translation';
       { path: 'page2', loadChildren: () => import('../+page2/module').then(module => module.Page2Module) },
     ]),
     TranslocoModule,
-    TranslateModule.forChild([
-      staticTranslations,
-    ]),
   ],
   providers: [
     {
