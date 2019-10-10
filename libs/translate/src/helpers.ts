@@ -19,7 +19,7 @@ export function provideTranslation(scope: string, translations: IComponentTransl
   ];
 }
 
-// use `TRANSLOCO_SCOPE` token as first component creation hook to register its translation
+// use `TRANSLOCO_SCOPE` token as component creation hook to register its translation
 export function translationFactory(
   scope: string,
   translations: IComponentTranslations,
